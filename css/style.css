@@ -350,6 +350,46 @@ ul { list-style: none; }
     gap: var(--space-lg);
 }
 
+/* --- 周分组标题 --- */
+.week-section-header {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-md);
+    padding: var(--space-md) 0 var(--space-sm);
+    margin-top: var(--space-md);
+    border-bottom: 2px solid var(--navy);
+}
+
+.week-section-header:first-child {
+    margin-top: 0;
+}
+
+.week-num {
+    font-family: 'Times New Roman', 'Georgia', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    background: var(--gold-light);
+    padding: 2px 12px;
+    border-radius: 3px;
+    letter-spacing: 0.03em;
+    line-height: 1.4;
+}
+
+.week-range {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--navy);
+}
+
+.week-count {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-left: auto;
+    white-space: nowrap;
+}
+
 .entry-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);

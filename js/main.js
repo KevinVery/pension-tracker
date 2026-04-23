@@ -13,6 +13,7 @@ const App = {
     currentFilters: {
         country: 'all',
         category: 'all',
+        week: 'all',
         importance: 'all',
         search: '',
         dateStart: '',
@@ -82,6 +83,56 @@ const App = {
             opt.textContent = c;
             categorySelect.appendChild(opt);
         });
+
+        // 填充周次筛选
+        this.populateWeekFilter();
+    },
+
+    // 获取日期所在周（周日~周六）的范围
+    getWeekRange(dateStr) {
+        const p = dateStr.split('-');
+        const d = new Date(parseInt(p[0]), parseInt(p[1]) - 1, parseInt(p[2]));
+        const day = d.getDay(); // 0=周日
+        const sun = new Date(d);
+        sun.setDate(d.getDate() - day);
+        const sat = new Date(sun);
+        sat.setDate(sun.getDate() + 6);
+        const start = this._fmt(sun);
+        const end = this._fmt(sat);
+        const label = (sun.getMonth() + 1) + '月' + sun.getDate() + '日 - ' +
+            (sat.getMonth() + 1) + '月' + sat.getDate() + '日';
+        return { start, end, label, key: start };
+    },
+
+    // Date → YYYY-MM-DD
+    _fmt(d) {
+        return d.getFullYear() + '-' +
+            String(d.getMonth() + 1).padStart(2, '0') + '-' +
+            String(d.getDate()).padStart(2, '0');
+    },
+
+    // 获取所有涉及周（按时间排序）
+    getAllWeeks() {
+        const map = {};
+        this.data.entries.forEach(e => {
+            const w = this.getWeekRange(e.date);
+            map[w.key] = w;
+        });
+        return Object.keys(map).sort().map(k => map[k]);
+    },
+
+    // 填充周次筛选下拉
+    populateWeekFilter() {
+        const weeks = this.getAllWeeks();
+        const select = document.getElementById('week-filter');
+        if (!select) return;
+        // 倒序（最近一周排最前）
+        weeks.slice().reverse().forEach(w => {
+            const opt = document.createElement('option');
+            opt.value = w.key;
+            opt.textContent = w.label;
+            select.appendChild(opt);
+        });
     },
 
     // 渲染统计卡片
@@ -90,6 +141,10 @@ const App = {
         const countries = new Set(entries.map(e => e.country));
         const highImp = entries.filter(e => e.importance >= 5).length;
         const reforms = entries.filter(e => e.category.includes('改革')).length;
+        // 本周统计
+        const today = this._fmt(new Date());
+        const thisWeek = this.getWeekRange(today);
+        const thisWeekCount = entries.filter(e => this.getWeekRange(e.date).key === thisWeek.key).length;
 
         document.getElementById('stats-grid').innerHTML = `
             <div class="stat-card highlight">
@@ -97,12 +152,12 @@ const App = {
                 <div class="stat-label">动态总数</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">${countries.size}</div>
-                <div class="stat-label">监测国家</div>
+                <div class="stat-number">${thisWeekCount}</div>
+                <div class="stat-label">本周动态</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">${highImp}</div>
-                <div class="stat-label">重大动态（5分）</div>
+                <div class="stat-number">${countries.size}</div>
+                <div class="stat-label">监测国家</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">${reforms}</div>
@@ -111,7 +166,7 @@ const App = {
         `;
     },
 
-    // 渲染条目
+    // 渲染条目（按周分组）
     render() {
         const container = document.getElementById('entries-list');
 
@@ -125,7 +180,40 @@ const App = {
             return;
         }
 
-        container.innerHTML = this.filteredEntries.map((entry, idx) => this.renderEntry(entry, idx + 1)).join('');
+        // 按周分组
+        const allWeeks = this.getAllWeeks();
+        const weekGroups = {};
+        allWeeks.forEach(w => { weekGroups[w.key] = { ...w, entries: [] }; });
+        this.filteredEntries.forEach(entry => {
+            const wk = this.getWeekRange(entry.date);
+            if (weekGroups[wk.key]) weekGroups[wk.key].entries.push(entry);
+        });
+
+        // 倒序排列（最近一周在最前）
+        const sortedKeys = Object.keys(weekGroups).sort().reverse();
+
+        let html = '';
+        sortedKeys.forEach((key, idx) => {
+            const group = weekGroups[key];
+            if (group.entries.length === 0) return;
+            const weekNum = sortedKeys.length - idx; // 最旧的一周为第N周
+            // 仅当不只一周时显示序号（单独一周不重复显示）
+            const weekLabel = sortedKeys.length > 1
+                ? `<span class="week-num">第 ${idx + 1} 周</span>`
+                : '';
+            html += `
+                <div class="week-section-header">
+                    ${weekLabel}
+                    <span class="week-range">${group.label}</span>
+                    <span class="week-count">${group.entries.length} 条动态</span>
+                </div>
+            `;
+            group.entries.forEach((entry, ei) => {
+                html += this.renderEntry(entry, ei + 1);
+            });
+        });
+
+        container.innerHTML = html;
     },
 
     // 渲染单一条目
@@ -169,6 +257,8 @@ const App = {
             if (filters.country !== 'all' && entry.country !== filters.country) return false;
             // 分类筛选
             if (filters.category !== 'all' && entry.category !== filters.category) return false;
+            // 周次筛选
+            if (filters.week !== 'all' && this.getWeekRange(entry.date).key !== filters.week) return false;
             // 重要性筛选
             if (filters.importance !== 'all' && entry.importance !== parseInt(filters.importance)) return false;
             // 时间范围筛选
@@ -206,6 +296,7 @@ const App = {
     bindEvents() {
         const countryFilter = document.getElementById('country-filter');
         const categoryFilter = document.getElementById('category-filter');
+        const weekFilter = document.getElementById('week-filter');
         const importanceFilter = document.getElementById('importance-filter');
         const searchInput = document.getElementById('search-input');
         const dateStartInput = document.getElementById('date-start');
@@ -220,6 +311,13 @@ const App = {
             this.currentFilters.category = e.target.value;
             this.filter();
         });
+
+        if (weekFilter) {
+            weekFilter.addEventListener('change', (e) => {
+                this.currentFilters.week = e.target.value;
+                this.filter();
+            });
+        }
 
         importanceFilter.addEventListener('change', (e) => {
             this.currentFilters.importance = e.target.value;

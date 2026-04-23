@@ -46,7 +46,7 @@
             <section class="report-overview">
                 <div class="overview-header">
                     <h2>政策动态简报</h2>
-                    <p class="overview-period">报告周期：<time datetime="2026-04-01">2026年4月1日</time> — <time datetime="2026-04-23">2026年4月23日</time></p>
+                    <p class="overview-period">报告周期：<time datetime="2026-04-01">2026年4月1日</time> — <time datetime="2026-04-23">2026年4月23日</time> <span class="period-divider">|</span> 按周发布（周日—周六）</p>
                 </div>
                 <div class="stats-grid" id="stats-grid">
                     <!-- 由JS动态填充 -->
@@ -65,6 +65,12 @@
                     <label for="category-filter">分类筛选</label>
                     <select id="category-filter">
                         <option value="all">所有分类</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="week-filter">周次</label>
+                    <select id="week-filter">
+                        <option value="all">全部周次</option>
                     </select>
                 </div>
                 <div class="filter-group">
