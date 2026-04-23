@@ -2,13 +2,13 @@
   "metadata": {
     "site_name": "全球养老金政策动态追踪",
     "site_subtitle": "Global Pension Policy Monitor",
-    "description": "跟踪全球12个主要经济体的养老金政策、改革和投资动态，提供权威、及时的政策情报。",
+    "description": "跟踪全球16个主要经济体的养老金政策、改革和投资动态，提供权威、及时的政策情报。",
     "last_updated": "2026-04-23",
     "report_period_start": "2026-04-01",
     "report_period_end": "2026-04-23",
-    "total_entries": 24,
-    "data_version": "2.0-fix",
-    "countries_covered": 12,
+    "total_entries": 28,
+    "data_version": "3.0-expand",
+    "countries_covered": 16,
     "version": "1.0"
   },
   "entries": [
@@ -125,13 +125,13 @@
     {
       "id": 11,
       "country": "美国",
-      "title": "4月社会保障支付分析：COLA 2.8%被Medicare保费上涨部分抵消",
-      "content": "美国2026年4月社会保障支付数据显示，虽然年度COLA（2.8%）已将平均月退休金从约2,015美元提升至2,071美元，但Medicare Part B保费跃升至202.90美元/月（较2025年上涨9.7%），抵消了约三分之一的增幅。4月支付按出生日期分批进行（4月3日、9日、15日、23日）。社会保障信托基金预计2032年耗尽。",
+      "title": "社会保障公平法案：310万人已获超170亿美元追溯性付款",
+      "content": "美国社会保障管理局（SSA）持续推进《社会保障公平法案》实施，该法案于2025年1月签署，废除了WEP（意外之财消除条款）和GPO（政府养老金抵销条款）。截至2025年7月，SSA已向310万受益人发放超170亿美元追溯性付款，平均每人约6,710美元，较原计划提前完成。月福利增加约360美元（退休工人）、700美元（配偶）和1,190美元（遗属）。截至2026年4月，仍有大量新申请待处理，国会参议员正推动为未及时申请者提供自2024年1月起的全额追溯性付款。",
       "date": "2026-04-01",
-      "category": "数据发布",
-      "importance": 3,
-      "source": "The Street / Economic Times",
-      "url": "https://www.thestreet.com/retirement/key-social-security-updates-you-need-to-know-in-2026-retirement"
+      "category": "政策调整",
+      "importance": 5,
+      "source": "SSA / masslive.com",
+      "url": "https://www.masslive.com/news/2026/04/social-security-may-owe-millions-of-recipients-back-pay-are-you-one-of-them.html"
     },
     {
       "id": 12,
@@ -180,13 +180,13 @@
     {
       "id": 16,
       "country": "美国",
-      "title": "社会保障购买力报告发布：2010年以来已下降20%",
-      "content": "老年公民联盟（The Senior Citizens League）2026年4月发布研究报告显示，社会保障福利自2010年以来已丧失20%的购买力。能源价格大幅上涨（汽油价格同比上涨18.9%，燃油上涨44.2%）加剧了退休人员的生活成本压力。报告同时预测2027年COLA可能约为2.8%。",
-      "date": "2026-04-15",
-      "category": "数据发布",
+      "title": "SSA 2026年收入测试限额和全国统一预约系统实施",
+      "content": "美国社会保障管理局（SSA）2026年多项运营调整持续实施。2026年收入测试限额：未达全额退休年龄者年收入上限24,480美元（超限每2美元扣1美元福利金），全额退休年龄当年者上限65,160美元（超限每3美元扣1美元）。全额退休年龄后收入测试取消。此外，SSA自2026年3月7日起启用全国统一预约调度系统（NASC），替代原地方办公室模式，全国统一路由案件以减少积压。Medicare Part B保费升至202.90美元/月（同比涨9.7%）。",
+      "date": "2026-04-02",
+      "category": "行政安排",
       "importance": 3,
-      "source": "The Senior Citizens League / Yahoo Finance",
-      "url": "https://finance.yahoo.com/economy/articles/2026-social-security-raise-already-083600331.html"
+      "source": "USA Today / SSA",
+      "url": "https://www.usatoday.com/story/money/personalfinance/retirement/2026/04/02/social-security-rules-working-retirement/89418258007/"
     },
     {
       "id": 17,
@@ -275,6 +275,50 @@
       "importance": 2,
       "source": "INSS / Folha Vitória",
       "url": "https://www.folhavitoria.com.br/economia/quando-sai-o-13o-dos-aposentados-em-2026-inss-antecipa-pagamento/"
+    },
+    {
+      "id": 25,
+      "country": "阿根廷",
+      "title": "ANSES 4月养老金按2.90%上调并发放70,000比索额外补贴",
+      "content": "阿根廷国家社会保险局（ANSES）依据第74/2026号和第79/2026号决议，自2026年4月起将养老金等福利上调2.90%（基于INDEC公布的2026年2月CPI月度移动公式）。最低养老金提高至380,319.31比索/月，最高养老金2,559,188.80比索/月。同时根据第213/2026号法令，向最低养老金领取者、全民儿童津贴（PUAM）、非缴费型养老金（PNC）及多子女母亲养老金领取者发放70,000比索额外补贴。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "ANSES / Boletín Oficial",
+      "url": "https://www.rionegro.com.ar/servicios/calendario-de-pagos-de-anses-quienes-cobran-jubilaciones-y-asignaciones-entre-el-20-y-el-27-de-abril-2026-4545650/"
+    },
+    {
+      "id": 26,
+      "country": "俄罗斯",
+      "title": "政府签署法令：社会养老金自4月1日起上调14.75%",
+      "content": "俄罗斯总理米舒斯京签署政府法令，自2026年4月1日起将社会养老金指数化上调14.75%。该调整覆盖约420万人，包括领取社会养老金的残障人士、失去抚养人者、应征入伍军人、卫国战争参与者、被围困列宁格勒/塞瓦斯托波尔/斯大林格勒居民、试飞员和宇航员，以及受辐射或人为灾难影响者及其家属。俄罗斯社会保障基金为此拨款850亿卢布。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "俄罗斯政府内阁 / AK&M",
+      "url": "https://www.akm.ru/eng/news/the-cabinet-of-ministers-indexed-social-pensions-by-14-75/"
+    },
+    {
+      "id": 27,
+      "country": "荷兰",
+      "title": "参议院否决加快AOW国家养老金年龄上调提案",
+      "content": "荷兰一院（参议院）于2026年4月7-8日投票否决了政府提出的加快国家养老金（AOW）退休年龄上调提案。该提案试图将现行每提高1岁预期寿命对应退休年龄上调8个月的机制改为1:1上调（自2033年起）。由GroenLinks-PvdA、PVV、BBB等多党组成的跨党联盟反对该提案，认为其违反2019年养老金协议且缺乏社会公正。内阁表示将暂停该计划并寻求替代方案。现行退休年龄维持67岁，2028年拟升至67岁3个月。",
+      "date": "2026-04-08",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "DutchNews.nl / NL Times",
+      "url": "https://www.dutchnews.nl/2026/04/senate-poised-to-say-no-to-state-pension-age-increase/"
+    },
+    {
+      "id": 28,
+      "country": "墨西哥",
+      "title": "宪法第127条改革：高额公共养老金上限调至总统薪资50%",
+      "content": "墨西哥宪法第127条改革于2026年4月10日在联邦官方公报（DOF）公布，将所有公共资金支付的养老金上限定为总统薪资的50%（约70,000比索/月）。该改革由总统辛鲍姆推动，旨在实施 austerity 和公平原则，预计影响超过93,000名IMSS、ISSSTE、Pemex、CFE等机构的高额养老金领取者，部分人可能面临最高60%的削减。墨西哥最高法院同日裁定IMSS可取消重复养老金支付，防止同一人从IMSS同时领取合同退休金和老年养老金。",
+      "date": "2026-04-10",
+      "category": "政策改革",
+      "importance": 5,
+      "source": "DOF / FOX Sports México / Mi Bolsillo",
+      "url": "https://www.foxsports.com.mx/2026/04/21/imss-e-issste-estos-jubilados-de-mexico-tendran-recorte-de-hasta-60-por-reforma-a-pensiones-doradas/"
     }
   ]
 }
