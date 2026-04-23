@@ -7,6 +7,7 @@
     "report_period_start": "2026-04-01",
     "report_period_end": "2026-04-23",
     "total_entries": 24,
+    "data_version": "2.0-fix",
     "countries_covered": 12,
     "version": "1.0"
   },
@@ -47,13 +48,13 @@
     {
       "id": 4,
       "country": "韩国",
-      "title": "国民年金改革正式实施：缴费率启动28年来首次上调",
-      "content": "韩国国民年金（NPS）重大改革自2026年1月起正式实施。缴费率从9%启动年度上调（每年提高0.5个百分点，至2033年达13%），为28年来首次上调。替代率从41.5%提升至43.0%。2026年4月，NPS公布Q1实施数据显示改革平稳推进，基金耗尽预期从2050年延后至2064-2071年。NPS管理资产约1,500万亿韩元（约1.1万亿美元）。",
-      "date": "2026-04-04",
-      "category": "政策改革",
-      "importance": 5,
-      "source": "SSA International Update",
-      "url": "https://www.ssa.gov/policy/docs/progdesc/intl_update/2025-04/"
+      "title": "NPS国内股票持仓近翻三倍，半导体行情推动创纪录收益",
+      "content": "韩国国民年金公团（NPS）2026年4月数据显示，其国内股票持仓价值在过去一年中增长近三倍，截至4月10日达353.3万亿韩元（约2,400亿美元），较2024年底的129.2万亿韩元增长173.6%。收益主要来自半导体股票，三星电子和SK海力士贡献了约54%的总收益。NPS基金管理委员会4月会议还讨论了提高战略性汇率对冲比例等新框架。",
+      "date": "2026-04-14",
+      "category": "投资动态",
+      "importance": 4,
+      "source": "Korea Herald / Yonhap Infomax",
+      "url": "https://m.koreaherald.com/article/10717052?sec=002"
     },
     {
       "id": 5,
@@ -124,12 +125,12 @@
     {
       "id": 11,
       "country": "美国",
-      "title": "2026年社会保障COLA为2.8%，4月支付受Medicare保费上涨侵蚀",
-      "content": "美国2026年社会保障生活成本调整（COLA）为2.8%，平均月退休金从约2015美元升至2071美元。但Medicare Part B保费跃升至202.90美元/月（较2025年上涨9.7%），抵消了约三分之一的COLA增幅。社会保障信托基金预计2032年耗尽，届时可能面临24%的自动福利削减。",
+      "title": "4月社会保障支付分析：COLA 2.8%被Medicare保费上涨部分抵消",
+      "content": "美国2026年4月社会保障支付数据显示，虽然年度COLA（2.8%）已将平均月退休金从约2,015美元提升至2,071美元，但Medicare Part B保费跃升至202.90美元/月（较2025年上涨9.7%），抵消了约三分之一的增幅。4月支付按出生日期分批进行（4月3日、9日、15日、23日）。社会保障信托基金预计2032年耗尽。",
       "date": "2026-04-01",
-      "category": "政策调整",
-      "importance": 4,
-      "source": "Economic Times / The Street",
+      "category": "数据发布",
+      "importance": 3,
+      "source": "The Street / Economic Times",
       "url": "https://www.thestreet.com/retirement/key-social-security-updates-you-need-to-know-in-2026-retirement"
     },
     {
@@ -212,13 +213,13 @@
     {
       "id": 19,
       "country": "韩国",
-      "title": "NPS投资策略调整：国内股票增持，海外减持",
-      "content": "韩国国民年金公团（NPS）2026年目标组合调整：国内股票目标从14.4%升至14.9%，海外股票从38.9%降至37.2%（为缓解韩元贬值压力）。政府考虑将风险资产投资上限从65%提高至75%。NPS董事长Kim Sung-joo提议直接管理退休养老金，声称可将回报率从2-3%提升至约9%。",
-      "date": "2026-04-11",
+      "title": "NPS外汇对冲比例拟提高，首次计划发行外币债券",
+      "content": "韩国国民年金公团（NPS）2026年4月基金管理委员会会议提出新框架：计划将战略性汇率对冲比例从当前的10%提高，并首次发行美元计价债券以直接筹措美元资金。此举旨在应对韩元贬值压力（韩元兑美元一度逼近1,500韩元大关）。NPS董事长Kim Sung-joo表示1,400韩元初段是更合理的均衡水平，已启动内部危机应对小组。相关法律修正案需提交国会。",
+      "date": "2026-04-14",
       "category": "投资动态",
-      "importance": 3,
-      "source": "Maeil Business / Yonhap Infomax",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=98147"
+      "importance": 4,
+      "source": "Yonhap Infomax / GuruFocus",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=115385"
     },
     {
       "id": 20,
@@ -234,13 +235,13 @@
     {
       "id": 21,
       "country": "加拿大",
-      "title": "CPP 2026年年度调整：福利金增长2%",
-      "content": "加拿大养老金计划（CPP）2026年年度调整生效，福利金增长2%。65岁新受益人最高月付额为1,507.65加元。现有受益人福利相应增加（如2025年领1,433加元者现领1,461.66加元）。CPP为年度调整（非季度），1月已生效，4月支付额与1月相同。",
+      "title": "4月28日CPP和OAS支付日确认，OAS季度微调0.1%",
+      "content": "加拿大2026年4月28日为CPP和OAS统一支付日。OAS老年保障金2026年Q2（4-6月）季度标准：65-74岁743.05加元/月（较Q1增0.74加元），75岁以上817.36加元/月（增0.82加元），同比上涨2.1%。CPP年度调整已在1月生效（增长2%），65岁新受益人最高月付额1,507.65加元。单身GIS最高补助提高至1,108.74加元/月。",
       "date": "2026-04-01",
-      "category": "政策调整",
+      "category": "数据发布",
       "importance": 3,
-      "source": "加拿大服务局 / MTL Blog",
-      "url": "https://www.mtlblog.com/old-age-security-increase-canada-april-2026"
+      "source": "Yahoo News Canada / MTL Blog",
+      "url": "https://ca.news.yahoo.com/explainer-everything-know-incoming-cpp-220421361.html"
     },
     {
       "id": 22,
