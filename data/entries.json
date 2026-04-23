@@ -125,13 +125,13 @@
     {
       "id": 11,
       "country": "美国",
-      "title": "社会保障公平法案：310万人已获超170亿美元追溯性付款",
-      "content": "美国社会保障管理局（SSA）持续推进《社会保障公平法案》实施，该法案于2025年1月签署，废除了WEP（意外之财消除条款）和GPO（政府养老金抵销条款）。截至2025年7月，SSA已向310万受益人发放超170亿美元追溯性付款，平均每人约6,710美元，较原计划提前完成。月福利增加约360美元（退休工人）、700美元（配偶）和1,190美元（遗属）。截至2026年4月，仍有大量新申请待处理，国会参议员正推动为未及时申请者提供自2024年1月起的全额追溯性付款。",
+      "title": "4月社会保障支付分析：COLA 2.8%被Medicare保费上涨部分抵消",
+      "content": "美国2026年4月社会保障支付数据显示，虽然年度COLA（2.8%）已将平均月退休金从约2,015美元提升至2,071美元，但Medicare Part B保费跃升至202.90美元/月（较2025年上涨9.7%），抵消了约三分之一的增幅。4月支付按出生日期分批进行（4月3日、9日、15日、23日）。社会保障信托基金预计2032年耗尽。",
       "date": "2026-04-01",
-      "category": "政策调整",
-      "importance": 5,
-      "source": "SSA / masslive.com",
-      "url": "https://www.masslive.com/news/2026/04/social-security-may-owe-millions-of-recipients-back-pay-are-you-one-of-them.html"
+      "category": "数据发布",
+      "importance": 3,
+      "source": "The Street / Economic Times",
+      "url": "https://www.thestreet.com/retirement/key-social-security-updates-you-need-to-know-in-2026-retirement"
     },
     {
       "id": 12,
@@ -180,13 +180,13 @@
     {
       "id": 16,
       "country": "美国",
-      "title": "SSA 2026年收入测试限额和全国统一预约系统实施",
-      "content": "美国社会保障管理局（SSA）2026年多项运营调整持续实施。2026年收入测试限额：未达全额退休年龄者年收入上限24,480美元（超限每2美元扣1美元福利金），全额退休年龄当年者上限65,160美元（超限每3美元扣1美元）。全额退休年龄后收入测试取消。此外，SSA自2026年3月7日起启用全国统一预约调度系统（NASC），替代原地方办公室模式，全国统一路由案件以减少积压。Medicare Part B保费升至202.90美元/月（同比涨9.7%）。",
-      "date": "2026-04-02",
-      "category": "行政安排",
+      "title": "社会保障购买力报告发布：2010年以来已下降20%",
+      "content": "老年公民联盟（The Senior Citizens League）2026年4月发布研究报告显示，社会保障福利自2010年以来已丧失20%的购买力。能源价格大幅上涨（汽油价格同比上涨18.9%，燃油上涨44.2%）加剧了退休人员的生活成本压力。报告同时预测2027年COLA可能约为2.8%。",
+      "date": "2026-04-15",
+      "category": "数据发布",
       "importance": 3,
-      "source": "USA Today / SSA",
-      "url": "https://www.usatoday.com/story/money/personalfinance/retirement/2026/04/02/social-security-rules-working-retirement/89418258007/"
+      "source": "The Senior Citizens League / Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/articles/2026-social-security-raise-already-083600331.html"
     },
     {
       "id": 17,

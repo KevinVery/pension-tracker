@@ -196,14 +196,9 @@ const App = {
         sortedKeys.forEach((key, idx) => {
             const group = weekGroups[key];
             if (group.entries.length === 0) return;
-            const weekNum = sortedKeys.length - idx; // 最旧的一周为第N周
-            // 仅当不只一周时显示序号（单独一周不重复显示）
-            const weekLabel = sortedKeys.length > 1
-                ? `<span class="week-num">第 ${idx + 1} 周</span>`
-                : '';
+            // 不再显示第N周标签，仅保留日期区间
             html += `
                 <div class="week-section-header">
-                    ${weekLabel}
                     <span class="week-range">${group.label}</span>
                     <span class="week-count">${group.entries.length} 条动态</span>
                 </div>
