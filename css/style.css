@@ -247,7 +247,7 @@ ul { list-style: none; }
 }
 
 .stat-number {
-    font-family: var(--font-heading);
+    font-family: 'Times New Roman', 'Georgia', serif;
     font-size: 2rem;
     font-weight: 700;
     color: var(--navy);
@@ -412,10 +412,11 @@ ul { list-style: none; }
 }
 
 .entry-number {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-family: 'Times New Roman', serif;
+    font-size: 0.8rem;
     color: var(--text-muted);
     margin-right: var(--space-sm);
+    font-weight: 600;
 }
 
 .entry-title {
@@ -458,6 +459,7 @@ ul { list-style: none; }
     display: flex;
     align-items: center;
     gap: 4px;
+    font-family: 'Times New Roman', serif;
 }
 
 .entry-source {
