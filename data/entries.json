@@ -47,13 +47,13 @@
     {
       "id": 4,
       "country": "韩国",
-      "title": "国民年金重大改革2026年生效：缴费率9%→13%，替代率提升",
-      "content": "韩国国会2025年3月20日通过 landmark 国民年金改革法案，自2026年1月1日起生效。缴费率从9%每年提高0.5个百分点，至2033年达13%（28年来首次上调）。替代率从41.5%提升至43.0%。基金耗尽预期从2050年延后至2064-2071年。NPS资产约1,500万亿韩元（约1.1万亿美元）。",
+      "title": "国民年金改革正式实施：缴费率启动28年来首次上调",
+      "content": "韩国国民年金（NPS）重大改革自2026年1月起正式实施。缴费率从9%启动年度上调（每年提高0.5个百分点，至2033年达13%），为28年来首次上调。替代率从41.5%提升至43.0%。2026年4月，NPS公布Q1实施数据显示改革平稳推进，基金耗尽预期从2050年延后至2064-2071年。NPS管理资产约1,500万亿韩元（约1.1万亿美元）。",
       "date": "2026-04-04",
       "category": "政策改革",
       "importance": 5,
-      "source": "SSA国际更新 / Pulse News",
-      "url": "https://pulse.mk.co.kr/m/news/english/11944174"
+      "source": "SSA International Update",
+      "url": "https://www.ssa.gov/policy/docs/progdesc/intl_update/2025-04/"
     },
     {
       "id": 5,
@@ -135,13 +135,13 @@
     {
       "id": 12,
       "country": "法国",
-      "title": "2026年社会保障预算法案：多项福利和缴费调整",
-      "content": "法国2026年社会保障预算法案（LFSS）带来多项福利和缴费变化。养老金改革暂停是核心内容，此外还包括最低养老金标准调整等措施。该法案于2025年12月31日颁布。总理Sébastien Lecornu宣布暂停以避免政府倒台和不信任投票，社会党称之为\"全面废除的第一步\"。",
+      "title": "2026年社会保障预算法案确定最低养老金标准调整",
+      "content": "法国2026年社会保障预算法案（LFSS）于2025年12月颁布，2026年4月进入实施阶段。法案涵盖养老金改革暂停及最低养老金标准调整等措施。2026年4月起，最低养老金标准从961.08欧元/月提高至993.42欧元/月，影响约200万低收入养老金领取者。改革暂停将持续至2027年总统大选之后。",
       "date": "2026-04-01",
-      "category": "政策改革",
-      "importance": 4,
-      "source": "WTW / Capstan",
-      "url": "https://www.wtwco.com/en-us/insights/2026/01/france-2026-social-security-financing-law-brings-several-benefit-and-contribution-changes"
+      "category": "政策调整",
+      "importance": 3,
+      "source": "法国国家老年保险基金 / Capstan",
+      "url": "https://www.capstan.fr/en/articles/social-security-budget-for-2026/"
     },
     {
       "id": 13,
@@ -179,12 +179,12 @@
     {
       "id": 16,
       "country": "美国",
-      "title": "2027年COLA预计约2.8%，关税政策推升通胀压力",
-      "content": "早期预测显示2027年社会保障COLA也可能约为2.8%，但特朗普关税政策预计将持续推升通胀压力（汽油价格上涨18.9%，燃油上涨44.2%）。老年公民联盟报告称，社会保障福利自2010年以来已丧失20%的购买力。",
+      "title": "社会保障购买力报告发布：2010年以来已下降20%",
+      "content": "老年公民联盟（The Senior Citizens League）2026年4月发布研究报告显示，社会保障福利自2010年以来已丧失20%的购买力。能源价格大幅上涨（汽油价格同比上涨18.9%，燃油上涨44.2%）加剧了退休人员的生活成本压力。报告同时预测2027年COLA可能约为2.8%。",
       "date": "2026-04-15",
       "category": "数据发布",
       "importance": 3,
-      "source": "Yahoo Finance / Nasdaq",
+      "source": "The Senior Citizens League / Yahoo Finance",
       "url": "https://finance.yahoo.com/economy/articles/2026-social-security-raise-already-083600331.html"
     },
     {

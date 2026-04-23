@@ -14,7 +14,9 @@ const App = {
         country: 'all',
         category: 'all',
         importance: 'all',
-        search: ''
+        search: '',
+        dateStart: '',
+        dateEnd: ''
     },
 
     // 初始化
@@ -24,6 +26,7 @@ const App = {
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             this.data = await res.json();
             this.filteredEntries = [...this.data.entries];
+            this.setDefaultDateRange();
             this.populateFilters();
             this.renderStats();
             this.render();
@@ -37,6 +40,21 @@ const App = {
                     <p style="font-size:0.85rem;color:#999;">请确保 data/entries.json 文件存在且格式正确。</p>
                 </div>
             `;
+        }
+    },
+
+    // 设置默认时间范围
+    setDefaultDateRange() {
+        const meta = this.data.metadata;
+        if (meta.report_period_start) {
+            this.currentFilters.dateStart = meta.report_period_start;
+            const startInput = document.getElementById('date-start');
+            if (startInput) startInput.value = meta.report_period_start;
+        }
+        if (meta.report_period_end) {
+            this.currentFilters.dateEnd = meta.report_period_end;
+            const endInput = document.getElementById('date-end');
+            if (endInput) endInput.value = meta.report_period_end;
         }
     },
 
@@ -153,6 +171,9 @@ const App = {
             if (filters.category !== 'all' && entry.category !== filters.category) return false;
             // 重要性筛选
             if (filters.importance !== 'all' && entry.importance !== parseInt(filters.importance)) return false;
+            // 时间范围筛选
+            if (filters.dateStart && entry.date < filters.dateStart) return false;
+            if (filters.dateEnd && entry.date > filters.dateEnd) return false;
             // 搜索
             if (filters.search) {
                 const q = filters.search.toLowerCase();
@@ -172,7 +193,12 @@ const App = {
     updateResultCount() {
         const el = document.getElementById('result-count');
         if (el) {
-            el.textContent = `${this.filteredEntries.length} / ${this.data.entries.length} 条动态`;
+            const range = this.currentFilters;
+            let rangeText = '';
+            if (range.dateStart || range.dateEnd) {
+                rangeText = ` (${range.dateStart || '不限'} ~ ${range.dateEnd || '不限'})`;
+            }
+            el.textContent = `${this.filteredEntries.length} / ${this.data.entries.length} 条动态${rangeText}`;
         }
     },
 
@@ -182,6 +208,8 @@ const App = {
         const categoryFilter = document.getElementById('category-filter');
         const importanceFilter = document.getElementById('importance-filter');
         const searchInput = document.getElementById('search-input');
+        const dateStartInput = document.getElementById('date-start');
+        const dateEndInput = document.getElementById('date-end');
 
         countryFilter.addEventListener('change', (e) => {
             this.currentFilters.country = e.target.value;
@@ -202,6 +230,20 @@ const App = {
             this.currentFilters.search = e.target.value.trim();
             this.filter();
         });
+
+        if (dateStartInput) {
+            dateStartInput.addEventListener('change', (e) => {
+                this.currentFilters.dateStart = e.target.value;
+                this.filter();
+            });
+        }
+
+        if (dateEndInput) {
+            dateEndInput.addEventListener('change', (e) => {
+                this.currentFilters.dateEnd = e.target.value;
+                this.filter();
+            });
+        }
 
         // 归档链接滚动到底部
         document.getElementById('archives-link')?.addEventListener('click', (e) => {
