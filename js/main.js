@@ -14,6 +14,7 @@ const App = {
         country: 'all',
         category: 'all',
         week: 'all',
+        month: 'all',
         importance: 'all',
         search: '',
         dateStart: '',
@@ -65,7 +66,7 @@ const App = {
         const categories = [...new Set(this.data.entries.map(e => e.category))];
 
         // 按固定顺序排列国家
-        const countryOrder = ['美国','英国','加拿大','澳大利亚','日本','德国','法国','意大利','中国','韩国','巴西','印度'];
+        const countryOrder = ['美国','英国','加拿大','澳大利亚','日本','德国','法国','意大利','中国','韩国','巴西','印度','阿根廷','俄罗斯','荷兰','墨西哥'];
         const sortedCountries = countryOrder.filter(c => countries.includes(c));
 
         const countrySelect = document.getElementById('country-filter');
@@ -86,6 +87,8 @@ const App = {
 
         // 填充周次筛选
         this.populateWeekFilter();
+        // 填充月份筛选
+        this.populateMonthFilter();
     },
 
     // 获取日期所在周（周日~周六）的范围
@@ -132,6 +135,18 @@ const App = {
             opt.value = w.key;
             opt.textContent = w.label;
             select.appendChild(opt);
+        });
+    },
+
+    // 填充月份筛选下拉
+    populateMonthFilter() {
+        const months = [...new Set(this.data.entries.map(e => e.date.substring(0, 7)))];
+        months.sort().reverse().forEach(m => {
+            const opt = document.createElement('option');
+            opt.value = m;
+            const [y, mo] = m.split('-');
+            opt.textContent = y + '年' + parseInt(mo) + '月';
+            document.getElementById('month-filter').appendChild(opt);
         });
     },
 
@@ -254,6 +269,8 @@ const App = {
             if (filters.category !== 'all' && entry.category !== filters.category) return false;
             // 周次筛选
             if (filters.week !== 'all' && this.getWeekRange(entry.date).key !== filters.week) return false;
+            // 月份筛选
+            if (filters.month !== 'all' && entry.date.substring(0, 7) !== filters.month) return false;
             // 重要性筛选
             if (filters.importance !== 'all' && entry.importance !== parseInt(filters.importance)) return false;
             // 时间范围筛选
@@ -310,6 +327,14 @@ const App = {
         if (weekFilter) {
             weekFilter.addEventListener('change', (e) => {
                 this.currentFilters.week = e.target.value;
+                this.filter();
+            });
+        }
+
+        const monthFilter = document.getElementById('month-filter');
+        if (monthFilter) {
+            monthFilter.addEventListener('change', (e) => {
+                this.currentFilters.month = e.target.value;
                 this.filter();
             });
         }
