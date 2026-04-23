@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球养老金政策动态追踪 | Global Pension Policy Monitor</title>
+    <meta name="description" content="跟踪全球12个主要经济体的养老金政策、改革和投资动态，提供权威、及时的政策情报。">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 顶部通知栏 -->
+    <div class="site-notice">
+        数据来源：各国官方养老金机构、政府统计部门、养老金监管机构公告 | 仅供研究参考
+    </div>
+
+    <!-- 页眉 -->
+    <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo-area">
+                    <div class="seal-icon">
+                        <svg viewBox="0 0 60 60" width="60" height="60">
+                            <circle cx="30" cy="30" r="28" fill="none" stroke="#C5A55A" stroke-width="2"/>
+                            <circle cx="30" cy="30" r="22" fill="none" stroke="#C5A55A" stroke-width="1.5"/>
+                            <text x="30" y="36" text-anchor="middle" font-size="20" fill="#C5A55A" font-family="serif">&#9962;</text>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="site-title">全球养老金政策动态追踪</h1>
+                        <p class="site-subtitle">Global Pension Policy Monitor</p>
+                    </div>
+                </div>
+                <nav class="main-nav">
+                    <a href="index.html" class="active">最新动态</a>
+                    <a href="about.html">方法论</a>
+                    <a href="#" id="archives-link">数据来源</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <main class="main-content">
+        <div class="container">
+            <!-- 报告概览 -->
+            <section class="report-overview">
+                <div class="overview-header">
+                    <h2>政策动态简报</h2>
+                    <p class="overview-period">报告周期：<time datetime="2026-04-01">2026年4月1日</time> — <time datetime="2026-04-23">2026年4月23日</time></p>
+                </div>
+                <div class="stats-grid" id="stats-grid">
+                    <!-- 由JS动态填充 -->
+                </div>
+            </section>
+
+            <!-- 筛选栏 -->
+            <section class="filter-bar">
+                <div class="filter-group">
+                    <label for="country-filter">国家筛选</label>
+                    <select id="country-filter">
+                        <option value="all">所有国家</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="category-filter">分类筛选</label>
+                    <select id="category-filter">
+                        <option value="all">所有分类</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="importance-filter">重要性</label>
+                    <select id="importance-filter">
+                        <option value="all">全部</option>
+                        <option value="5">★★★★★ 最高</option>
+                        <option value="4">★★★★ 高</option>
+                        <option value="3">★★★ 中</option>
+                        <option value="2">★★ 低</option>
+                    </select>
+                </div>
+                <div class="filter-group search-group">
+                    <label for="search-input">搜索</label>
+                    <input type="text" id="search-input" placeholder="搜索关键词..." />
+                </div>
+                <div class="filter-stats">
+                    <span id="result-count">0 条动态</span>
+                </div>
+            </section>
+
+            <!-- 动态列表 -->
+            <section class="entries-list" id="entries-list">
+                <!-- 由JS动态渲染 -->
+            </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-brand">
+                    <h4>全球养老金政策动态追踪</h4>
+                    <p class="footer-desc">本网站跟踪全球12个主要经济体的养老金政策动态，基于公开信息整理分析，仅供学术研究参考。</p>
+                </div>
+                <div class="footer-col">
+                    <h4>监测国家</h4>
+                    <ul class="footer-links" id="footer-countries">
+                        <li>美国</li><li>英国</li><li>加拿大</li><li>澳大利亚</li>
+                        <li>日本</li><li>德国</li><li>法国</li><li>意大利</li>
+                        <li>中国</li><li>韩国</li><li>巴西</li><li>印度</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>分类</h4>
+                    <ul class="footer-links">
+                        <li>政策改革</li><li>政策调整</li><li>法规更新</li>
+                        <li>投资动态</li><li>数据发布</li><li>行政安排</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>引用说明</h4>
+                    <p class="footer-cite">建议引用格式：<br>
+                    Global Pension Policy Monitor. (2026). <em>全球养老金政策动态追踪</em>.<br>
+                    URL: https://[your-domain]/pension-tracker/</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Global Pension Policy Monitor. 基于公开信息整理，转载请注明出处。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

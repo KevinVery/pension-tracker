@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "site_name": "全球养老金政策动态追踪",
+    "site_subtitle": "Global Pension Policy Monitor",
+    "description": "跟踪全球12个主要经济体的养老金政策、改革和投资动态，提供权威、及时的政策情报。",
+    "last_updated": "2026-04-23",
+    "report_period_start": "2026-04-01",
+    "report_period_end": "2026-04-23",
+    "total_entries": 24,
+    "countries_covered": 12,
+    "version": "1.0"
+  },
+  "entries": [
+    {
+      "id": 1,
+      "country": "中国",
+      "title": "五部门联合印发领取个人养老金有关问题通知",
+      "content": "人社部、财政部、国家税务总局、金融监管总局、中国证监会联合印发《关于领取个人养老金有关问题的通知》（2026年4月10日），明确领取条件：达到领取基本养老金年龄、完全丧失劳动能力、出国定居、大额医疗费用支出（个人负担超本省上年度人均可支配收入）、长期失业（累计领失业保险金达12个月）或领取最低生活保障金。领取时由银行代扣3%个人所得税。",
+      "date": "2026-04-10",
+      "category": "政策调整",
+      "importance": 5,
+      "source": "人社部",
+      "url": "http://chinajob.mohrss.gov.cn/h5/c/2026-04-10/526624.shtml"
+    },
+    {
+      "id": 2,
+      "country": "法国",
+      "title": "2023年养老金改革暂停：退休年龄不再向64岁推进",
+      "content": "法国2026年社会保障预算法案（LFSS）自2026年9月1日起暂停2023年养老金改革中退休年龄逐步提高至64岁的进程。1968年出生人群的退休年龄从64岁回调至63岁9个月，1964年出生者保持在62岁9个月。仅1969年及之后出生者仍需64岁退休。暂停将持续至2027年总统大选之后，预计2026年成本4亿欧元，2027年18亿欧元。",
+      "date": "2026-04-07",
+      "category": "政策改革",
+      "importance": 5,
+      "source": "Service-Public.gouv.fr / WTW",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18825?lang=en"
+    },
+    {
+      "id": 3,
+      "country": "英国",
+      "title": "国家养老金三重锁定2026年4月生效：上涨4.8%",
+      "content": "英国国家养老金自2026年4月6日起上涨4.8%（基于平均工资增长，为三重锁定中最高值）。新国家养老金从230.25英镑/周增至241.30英镑/周（约12,548英镑/年），基础养老金从176.45增至184.90英镑/周。超1200万养老金领取者受益，政府额外支出60亿英镑。",
+      "date": "2026-04-06",
+      "category": "政策调整",
+      "importance": 5,
+      "source": "GOV.UK / AJ Bell",
+      "url": "https://www.ajbell.co.uk/group/news/state-pension-rise-bumper-48-april-under-triple-lock"
+    },
+    {
+      "id": 4,
+      "country": "韩国",
+      "title": "国民年金重大改革2026年生效：缴费率9%→13%，替代率提升",
+      "content": "韩国国会2025年3月20日通过 landmark 国民年金改革法案，自2026年1月1日起生效。缴费率从9%每年提高0.5个百分点，至2033年达13%（28年来首次上调）。替代率从41.5%提升至43.0%。基金耗尽预期从2050年延后至2064-2071年。NPS资产约1,500万亿韩元（约1.1万亿美元）。",
+      "date": "2026-04-04",
+      "category": "政策改革",
+      "importance": 5,
+      "source": "SSA国际更新 / Pulse News",
+      "url": "https://pulse.mk.co.kr/m/news/english/11944174"
+    },
+    {
+      "id": 5,
+      "country": "中国",
+      "title": "2026年养老金实现\"22连涨\"，\"提低控高\"差异化调整",
+      "content": "中国2026年养老金调整采用\"提低控高\"差异化机制：养老金低于3000元的群体实际涨幅可能超过5%，高于8000元的群体涨幅控制在2%左右。北京、浙江等地将高龄门槛从70周岁降至65周岁。4月起全国统一切换至社保卡金融账户发放养老金。个人养老金年度缴费上限维持12,000元，采用EET递延纳税模式。",
+      "date": "2026-04-03",
+      "category": "政策调整",
+      "importance": 5,
+      "source": "中国政府网 / 大河网",
+      "url": "http://vodehr.com/Newslist/info.aspx?itemid=1079"
+    },
+    {
+      "id": 6,
+      "country": "日本",
+      "title": "GPIF管理资产达约293万亿日元，首次投资海外亚洲房地产",
+      "content": "日本政府养老金投资基金（GPIF）管理资产约293万亿日元（约1.9万亿美元），24年累计收益超196万亿日元。2026年4月23日，GPIF首次投资日本以外的亚洲房地产公司——一家香港私募房地产投资企业，标志着重大多元化战略。GPIF还发布2025/2026 stewardship报告，强调ESG参与和治理改革。",
+      "date": "2026-04-23",
+      "category": "投资动态",
+      "importance": 4,
+      "source": "LIMO / Eco-Business",
+      "url": "https://limo.media/articles/-/120090"
+    },
+    {
+      "id": 7,
+      "country": "澳大利亚",
+      "title": "超级年金保证费率维持12%，\"按周付超级\"改革7月生效",
+      "content": "澳大利亚超级年金保证（SG）费率已达最终立法峰值12%（2025年7月1日起），2026年7月不再上调。但\"按周付超级\"（Payday Super）重大改革将于2026年7月1日生效：雇主须在每个发薪周期的7个工作日内缴纳SG，而非现行的季度缴纳。超级保证罚款（SGC）将变为可税前抵扣。",
+      "date": "2026-04-10",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "澳大利亚财政部 / ATO",
+      "url": "https://beta.treasury.gov.au/policy-topics/superannuation/payday-super"
+    },
+    {
+      "id": 8,
+      "country": "意大利",
+      "title": "Quota 103提前退休选项2026年未获延期",
+      "content": "意大利Quota 103提前退休选项在2026年预算案中未被续期，自2026年1月1日起不再接受新申请。仅已在2025年12月31日前满足条件者可通过祖父条款受益。2026年Q1提前退休处理量同比下降约9%。从2027年起，退休年龄因预期寿命调整升至67岁1个月。",
+      "date": "2026-04-09",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "INPS / Il Messaggero",
+      "url": "https://www.ilmessaggero.it/en/pension_reform_changes_to_quota_103_and_ape_sociale-8418687.html"
+    },
+    {
+      "id": 9,
+      "country": "德国",
+      "title": "法定养老金2026年7月1日起上调4.24%",
+      "content": "德国法定养老金自2026年7月1日起上调4.24%（高于此前预测的3.7%）。养老金现值从40.79欧元升至42.52欧元。约2100万养老金领取者受益，按45年平均缴费计算月增约77.85欧元。该调整仍需内阁和联邦参议院正式批准。",
+      "date": "2026-04-08",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "Pension Policy International / IamExpat",
+      "url": "https://www.pensionpolicyinternational.com/german-pensions-to-rise-by-424-percent-in-july/"
+    },
+    {
+      "id": 10,
+      "country": "英国",
+      "title": "国家养老金年龄开始从66岁逐步升至67岁",
+      "content": "英国国家养老金年龄开始阶段性从66岁提高至67岁，影响1960年4月6日及之后出生的人群。养老金信贷标准最低保障也随之上调4.8%至每周238.00英镑（单身）和363.25英镑（夫妻）。新全额国家养老金已接近个人所得税起征点12,570英镑。",
+      "date": "2026-04-06",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "Parliament Today / PolicyMogul",
+      "url": "https://www.ukpol.co.uk/press-release-over-12-million-pensioners-to-receive-575-state-pension-boost-april-2026/"
+    },
+    {
+      "id": 11,
+      "country": "美国",
+      "title": "2026年社会保障COLA为2.8%，4月支付受Medicare保费上涨侵蚀",
+      "content": "美国2026年社会保障生活成本调整（COLA）为2.8%，平均月退休金从约2015美元升至2071美元。但Medicare Part B保费跃升至202.90美元/月（较2025年上涨9.7%），抵消了约三分之一的COLA增幅。社会保障信托基金预计2032年耗尽，届时可能面临24%的自动福利削减。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "Economic Times / The Street",
+      "url": "https://www.thestreet.com/retirement/key-social-security-updates-you-need-to-know-in-2026-retirement"
+    },
+    {
+      "id": 12,
+      "country": "法国",
+      "title": "2026年社会保障预算法案：多项福利和缴费调整",
+      "content": "法国2026年社会保障预算法案（LFSS）带来多项福利和缴费变化。养老金改革暂停是核心内容，此外还包括最低养老金标准调整等措施。该法案于2025年12月31日颁布。总理Sébastien Lecornu宣布暂停以避免政府倒台和不信任投票，社会党称之为\"全面废除的第一步\"。",
+      "date": "2026-04-01",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "WTW / Capstan",
+      "url": "https://www.wtwco.com/en-us/insights/2026/01/france-2026-social-security-financing-law-brings-several-benefit-and-contribution-changes"
+    },
+    {
+      "id": 13,
+      "country": "印度",
+      "title": "2026-27财年雇主养老金缴款统一上限设为75万卢比",
+      "content": "印度2026-27财年预算案规定，自2026年4月1日起，雇主对认可公积金（EPF）、国家养老金体系（NPS）和批准超级年金的缴款统一年度上限为75万卢比，超出部分在雇员手中应纳税。个人NPS缴款税收减免：80C项下最高15万卢比，80CCD(1B)项下额外最高5万卢比，合计最高2万卢比税收减免。",
+      "date": "2026-04-01",
+      "category": "法规更新",
+      "importance": 4,
+      "source": "HR Katha / ZeeBiz",
+      "url": "https://www.hrkatha.com/news/budget-2026-27-cap-on-employer-contributions-to-retirement-funds/"
+    },
+    {
+      "id": 14,
+      "country": "巴西",
+      "title": "INSS提前发放第13薪，4月24日起支付首批",
+      "content": "巴西国家社会保险局（INSS）2026年提前发放第13薪（年度奖金），首期50%于4月24日至5月8日随4月福利金一同支付。第二期预计5月25日至6月8日支付。约3,520万受益人受益，预计注入经济约782亿雷亚尔。2026年最低工资为1,518雷亚尔，INSS最高给付上限为8,475.55雷亚尔。",
+      "date": "2026-04-20",
+      "category": "行政安排",
+      "importance": 3,
+      "source": "Agência Gov / Valor Econômico",
+      "url": "https://agenciagov.ebc.com.br/noticias/202604/comeca-nesta-sexta-24-o-pagamento-de-beneficios-e-auxilios-referentes-ao-mes-de-abril"
+    },
+    {
+      "id": 15,
+      "country": "意大利",
+      "title": "2026年意大利退休年龄因预期寿命调整再次上调",
+      "content": "意大利2027年退休年龄将升至67岁1个月（2028年67岁3个月），基于预期寿命自动调整机制。现行提前退休选项包括：普通提前退休（男42年10个月/女41年10个月缴费，无年龄要求）、缴费制提前退休（64岁+25年缴费）、APE Sociale（63岁5个月+30年缴费）和Quota 41（41年缴费，无年龄要求）。",
+      "date": "2026-04-16",
+      "category": "政策改革",
+      "importance": 3,
+      "source": "Money.it / IPE",
+      "url": "https://www.ipe.com/news/italian-government-defines-stringent-requirement-for-early-retirement/10070875.article"
+    },
+    {
+      "id": 16,
+      "country": "美国",
+      "title": "2027年COLA预计约2.8%，关税政策推升通胀压力",
+      "content": "早期预测显示2027年社会保障COLA也可能约为2.8%，但特朗普关税政策预计将持续推升通胀压力（汽油价格上涨18.9%，燃油上涨44.2%）。老年公民联盟报告称，社会保障福利自2010年以来已丧失20%的购买力。",
+      "date": "2026-04-15",
+      "category": "数据发布",
+      "importance": 3,
+      "source": "Yahoo Finance / Nasdaq",
+      "url": "https://finance.yahoo.com/economy/articles/2026-social-security-raise-already-083600331.html"
+    },
+    {
+      "id": 17,
+      "country": "澳大利亚",
+      "title": "超级年金缴费基数上限改为年度制，2026-27财年起实施",
+      "content": "澳大利亚从2026年7月1日起，超级年金最高缴费基数从季度上限62,500澳元改为年度上限270,830澳元。ATO小企业超级清算所将关闭，新增Single Touch Payroll超级负债报告要求。",
+      "date": "2026-04-15",
+      "category": "法规更新",
+      "importance": 3,
+      "source": "Accru Felsers / Collins SBA",
+      "url": "https://www.accrufelsers.com/blog/superannuation-changes-effective-1-july-2026-fy26-27/"
+    },
+    {
+      "id": 18,
+      "country": "德国",
+      "title": "法定健康保险附加费率2026年升至2.9%，部分抵消养老金涨幅",
+      "content": "德国法定健康保险平均附加费率2026年升至2.9%（2025年为2.5%），长期护理保险费也可能上涨。这意味着养老金名义增长4.24%，但净增幅度可能更小。2026年新退休人员的应税养老金比例为84%，免税额度为单身12,348欧元/夫妻24,696欧元。",
+      "date": "2026-04-15",
+      "category": "政策调整",
+      "importance": 3,
+      "source": "Meyka / Osborne Clarke",
+      "url": "https://meyka.com/blog/february-15-germany-pension-2026-hike-offset-by-health-surcharges-1502/"
+    },
+    {
+      "id": 19,
+      "country": "韩国",
+      "title": "NPS投资策略调整：国内股票增持，海外减持",
+      "content": "韩国国民年金公团（NPS）2026年目标组合调整：国内股票目标从14.4%升至14.9%，海外股票从38.9%降至37.2%（为缓解韩元贬值压力）。政府考虑将风险资产投资上限从65%提高至75%。NPS董事长Kim Sung-joo提议直接管理退休养老金，声称可将回报率从2-3%提升至约9%。",
+      "date": "2026-04-11",
+      "category": "投资动态",
+      "importance": 3,
+      "source": "Maeil Business / Yonhap Infomax",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=98147"
+    },
+    {
+      "id": 20,
+      "country": "印度",
+      "title": "私营部门NPS雇主缴款扣除比例提高至14%",
+      "content": "印度新税制下私营部门雇主NPS缴款扣除比例从10%提高至14%（与政府雇员持平），适用于基本工资+ dearness allowance。但新税制下雇员自身缴款（80C和80CCD(1B)）不可扣除。中央政府雇员（2004年1月1日后入职）：雇员缴10%，政府缴14%。Tier I账户年最低缴款1,000卢比，每笔最低500卢比。",
+      "date": "2026-04-05",
+      "category": "法规更新",
+      "importance": 3,
+      "source": "Protean Tech / BankBazaar",
+      "url": "https://cms.proteantech.in/articles/corporate-nps-tax-regime-2026"
+    },
+    {
+      "id": 21,
+      "country": "加拿大",
+      "title": "CPP 2026年年度调整：福利金增长2%",
+      "content": "加拿大养老金计划（CPP）2026年年度调整生效，福利金增长2%。65岁新受益人最高月付额为1,507.65加元。现有受益人福利相应增加（如2025年领1,433加元者现领1,461.66加元）。CPP为年度调整（非季度），1月已生效，4月支付额与1月相同。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 3,
+      "source": "加拿大服务局 / MTL Blog",
+      "url": "https://www.mtlblog.com/old-age-security-increase-canada-april-2026"
+    },
+    {
+      "id": 22,
+      "country": "加拿大",
+      "title": "OAS老年保障金2026年Q2季度调整：小幅增长0.1%",
+      "content": "加拿大老年保障金（OAS）2026年4-6月季度标准：65-74岁全额OAS为743.05加元/月（较Q1增加0.74加元），75岁以上为817.36加元/月（增加0.82加元）。同比上涨2.1%。单身GIS最高补助提高至1,108.74加元/月。CPP和OAS均于4月28日支付。",
+      "date": "2026-04-01",
+      "category": "数据发布",
+      "importance": 3,
+      "source": "加拿大服务局 / Yahoo News Canada",
+      "url": "https://ca.news.yahoo.com/explainer-everything-know-incoming-cpp-220421361.html"
+    },
+    {
+      "id": 23,
+      "country": "日本",
+      "title": "国民年金4年连涨：2026年度基础年金增至70,608日元/月",
+      "content": "日本国民年金（基础年金）2026年度全额提高至70,608日元/月（增加1,300日元），为连续第4年上调。厚生年金保险同步上调2.0%。GPIF长期年化回报目标维持在4.4%。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 3,
+      "source": "LIMO / 厚生劳动省",
+      "url": "https://www.mhlw.go.jp/stf/houdou/bukyoku/nenkin.html"
+    },
+    {
+      "id": 24,
+      "country": "巴西",
+      "title": "INSS 2026年4月福利金支付日程公布",
+      "content": "巴西INSS公布2026年4月福利金支付日程，按社保号码末位数字分批支付（24日至5月8日）。领取最低工资者优先支付。可通过\"Meu INSS\"应用程序或致电135查询支付金额。雇主缴纳比例为工资的20%，员工按7.5%至14%累进税率缴纳，月缴上限988.09雷亚尔。",
+      "date": "2026-04-01",
+      "category": "行政安排",
+      "importance": 2,
+      "source": "INSS / Folha Vitória",
+      "url": "https://www.folhavitoria.com.br/economia/quando-sai-o-13o-dos-aposentados-em-2026-inss-antecipa-pagamento/"
+    }
+  ]
+}
