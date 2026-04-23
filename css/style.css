@@ -248,7 +248,7 @@ ul { list-style: none; }
 
 .stat-number {
     font-family: 'Times New Roman', 'Georgia', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--navy);
     line-height: 1.2;
@@ -413,7 +413,7 @@ ul { list-style: none; }
 
 .entry-number {
     font-family: 'Times New Roman', serif;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     color: var(--text-muted);
     margin-right: var(--space-sm);
     font-weight: 600;
@@ -460,6 +460,7 @@ ul { list-style: none; }
     align-items: center;
     gap: 4px;
     font-family: 'Times New Roman', serif;
+    font-size: 0.85rem;
 }
 
 .entry-source {
@@ -616,6 +617,7 @@ ul { list-style: none; }
 .star {
     color: var(--gold);
     font-size: 0.85rem;
+    font-family: 'Times New Roman', serif;
 }
 .star.empty {
     color: var(--border-color);
