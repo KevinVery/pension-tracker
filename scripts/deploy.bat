@@ -1,10 +1,14 @@
 @echo off
+chcp 65001 >nul
 REM ================================================================
-REM  全球养老金政策动态追踪 — GitHub Pages 一键部署脚本
-REM  使用方法：双击运行，或从命令行执行
+REM  全球养老金政策动态追踪 — 一键部署脚本
+REM  用法: 双击运行 或 scripts\deploy.bat
+REM  功能: 自动 git add/commit/push，触发 GitHub Pages 更新
 REM ================================================================
 
-echo === 全球养老金政策动态追踪 — GitHub Pages 部署工具 ===
+echo ═══════════════════════════════════════════════
+echo   全球养老金政策动态追踪 — 一键部署
+echo ═══════════════════════════════════════════════
 echo.
 
 REM 检查 git
@@ -15,34 +19,33 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-echo [1/3] 正在初始化 Git 仓库...
-if not exist .git (
-    git init
-    git config user.email "user@pension-monitor.local"
-    git config user.name "Pension Monitor"
+echo [1/3] 检查文件变更...
+git status --short
+
+echo.
+echo [2/3] 提交并推送...
+set commit_msg=Weekly update: %DATE%
+git add -A
+git commit -m "%commit_msg%"
+if %errorlevel% neq 0 (
+    echo [提示] 没有新变更，无需提交。
+    goto :push
 )
 
-echo [2/3] 请登录 GitHub 并创建一个新仓库：
+:push
 echo.
-echo     a) 打开 https://github.com/new
-echo     b) 仓库名：fudan-pension-monitor（或任意名称）
-echo     c) 选择 Public（公开）
-echo     d) 不要勾选任何初始化选项
-echo     e) 点击 "Create repository"
-echo.
-echo [3/3] 创建后，将以下命令粘贴到终端运行：
-echo.
-echo     git remote add origin https://github.com/你的用户名/fudan-pension-monitor.git
-echo     git branch -M main
-echo     git push -u origin main
-echo.
-echo     然后到 GitHub 仓库 Settings ^> Pages 中：
-echo     - Source 选择 "Deploy from a branch"
-echo     - Branch 选择 "main"，文件夹选择 "/ (root)"
-echo     - 点击 Save
-echo.
-echo     等待 2-3 分钟，你的网站就会出现在：
-echo     https://你的用户名.github.io/fudan-pension-monitor/
-echo.
+echo [3/3] 推送到 GitHub...
+git push origin main
 
+if %errorlevel% equ 0 (
+    echo.
+    echo ✅ 部署成功！
+    echo   网站将在 1-2 分钟后更新:
+    echo   https://kevinvery.github.io/fudan-pension-monitor/
+) else (
+    echo.
+    echo ❌ 推送失败，请检查网络连接和 GitHub 权限。
+)
+
+echo.
 pause
