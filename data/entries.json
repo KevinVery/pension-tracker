@@ -3,11 +3,11 @@
     "site_name": "全球养老金政策动态追踪",
     "site_subtitle": "Global Pension Policy Monitor",
     "description": "跟踪全球16个主要经济体的养老金政策、改革和投资动态，提供权威、及时的政策情报。",
-    "last_updated": "2026-04-23",
+    "last_updated": "2026-05-06",
     "report_period_start": "2026-04-01",
-    "report_period_end": "2026-04-23",
-    "total_entries": 28,
-    "data_version": "3.0-expand",
+    "report_period_end": "2026-05-06",
+    "total_entries": 38,
+    "data_version": "3.1-update",
     "countries_covered": 16,
     "version": "1.0"
   },
@@ -319,6 +319,116 @@
       "importance": 5,
       "source": "DOF / FOX Sports México / Mi Bolsillo",
       "url": "https://www.foxsports.com.mx/2026/04/21/imss-e-issste-estos-jubilados-de-mexico-tendran-recorte-de-hasta-60-por-reforma-a-pensiones-doradas/"
+    },
+    {
+      "id": 29,
+      "country": "英国",
+      "title": "《养老金计划法案2026》获皇室批准：推动整合与投资改革",
+      "content": "英国《养老金计划法案2026》（Pension Schemes Act 2026）于2026年4月29日获得皇室批准（Royal Assent），成为正式法律，是英国数十年来最重大的养老金改革。该法案旨在打造\"更少、更大、管理更优\"的养老金计划，要求DC集合受托计划和团体个人养老金（GPP）到2030年达到至少250亿英镑的资产规模。核心措施包括：价值评估框架（VFM）要求受托人评估并报告绩效；闲置小额养老金（1,000英镑以下）自动合并；DB盈余提取条款允许受托人向雇主释放盈余；以及限制性政府强制投资权（最高占默认基金资产10%，2032年到期）。改革预计使普通劳动者退休储蓄增加约29,000英镑。同期《国民保险缴款法案》也对养老金薪资牺牲的NIC减免设置2,000英镑上限（2029-30财年起）。",
+      "date": "2026-04-29",
+      "category": "政策改革",
+      "importance": 5,
+      "source": "GOV.UK / IPE / Sackers",
+      "url": "https://www.gov.uk/government/news/retirement-boost-of-29000-awaits-millions-as-landmark-pension-schemes-act-becomes-law"
+    },
+    {
+      "id": 30,
+      "country": "德国",
+      "title": "默茨提出法定养老金将降为\"基础保障\"：德国养老制度面临根本性改革",
+      "content": "德国总理默茨（Friedrich Merz, CDU）2026年4月在德国银行协会发表讲话，明确表示法定养老金未来\"充其量仅能提供基础保障\"，将不足以维持退休生活水平。他呼吁大幅扩展私人储蓄和职业养老金的资本市场化元素。政府任命的\"养老保障委员会\"预计2026年夏季前提交改革方案，计划2026年秋季立法、2027年1月实施。联合政府同时达成约383亿欧元的福利削减方案（至2030年），以腾出资金用于国防开支。新私人养老金储蓄工具（替代旧里斯特养老金Riester-Rente）将于2027年1月推出，提供最高50%的国家补贴。默茨的表态在执政联盟内引发激烈争议，SPD及工会强烈反对。",
+      "date": "2026-04-27",
+      "category": "政策改革",
+      "importance": 5,
+      "source": "Brussels Signal / Eulerpool / 欧洲时报",
+      "url": "https://brusselssignal.eu/2026/04/will-not-suffice-to-maintain-standard-of-living-germanys-merz-urges-pension-reform/"
+    },
+    {
+      "id": 31,
+      "country": "中国",
+      "title": "人社部一季度发布会：基本养老保险参保10.73亿人，基金累计结余10.8万亿",
+      "content": "人社部2026年4月28日举行新闻发布会，介绍一季度社保运行情况。截至3月底：基本养老保险参保人数10.73亿人；三项社保基金总收入2.54万亿元、总支出2.06万亿元，累计结余10.8万亿元，基金运行总体平稳。重点部署：延迟退休改革\"总体平稳有序\"推进；扎实实施个人养老金制度；推进全国城乡居民基础养老金最低标准调整；推动制定《社会保险基金监督条例》；常态化推进基本养老保险基金委托投资；为729万低保对象等困难群体代缴养老保险费。全国社保卡持卡人数13.9亿人（含电子社保卡11.07亿人），国家社保公共服务平台开通104项跨地区服务。",
+      "date": "2026-04-28",
+      "category": "数据发布",
+      "importance": 4,
+      "source": "中国金融新闻网 / 人社部",
+      "url": "https://www.financialnews.com.cn/2026-04/30/content_448299.html"
+    },
+    {
+      "id": 32,
+      "country": "荷兰",
+      "title": "内阁放弃加快AOW国家养老金退休年龄上调计划",
+      "content": "荷兰Jetten联合内阁于2026年4月29日正式放弃加快国家养老金（AOW）退休年龄上调的计划。此前4月8日参议院（一院）以跨党派多数投票否决了该提案，该提案试图将现行的预期寿命每提高1岁对应退休年龄上调8个月（0.8:1）的机制改为1:1上调（自2033年起）。GroenLinks-PvdA、PVV、BBB等多党联盟认为该提案违反2019年养老金协议且缺乏社会公正。现行AOW退休年龄维持在67岁3个月。工会（FNV、CNV、VCP）庆祝这一胜利，并将重点转向反对失业金和残疾金削减计划。",
+      "date": "2026-04-29",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "DutchNews.nl / NL Times",
+      "url": "https://www.dutchnews.nl/2026/04/cabinet-drops-pension-plan-as-unions-plan-further-protests/"
+    },
+    {
+      "id": 33,
+      "country": "印度",
+      "title": "第八届薪资委员会：NPS员工联合会要求恢复旧养老金制度（OPS）",
+      "content": "全印度NPS员工联合会（AINPSEF）于2026年4月30日向第八届薪资委员会（8th Pay Commission）提交核心诉求，要求允许NPS参保人在完成一定年限服务后可以选择转换至旧养老金制度（OPS），享受最后工资50%的保证养老金。其他诉求包括：将中央教师退休年龄从60岁提高至65岁、最低基本工资69,000卢比、年度增长率6-7%。委员会将备忘录提交截止日期延长至2026年5月31日。同时EPS-95最低养老金从1,000卢比提高至7,500卢比的长期诉求仍在审议中。",
+      "date": "2026-04-30",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "Economic Times / Business Today",
+      "url": "https://www.businesstoday.in/latest/economy/story/8th-pay-commission-nps-subscribers-seek-ops-option-key-demands-submitted-529937-2026-05-05"
+    },
+    {
+      "id": 34,
+      "country": "阿根廷",
+      "title": "ANSES 5月养老金上调3.38%，最低养老金增至393,174比索",
+      "content": "阿根廷国家社会保险局（ANSES）2026年5月4日在官方公报发布第110/2026和111/2026号决议，基于INDEC公布的3月CPI指数将养老金等福利上调3.38%。最低养老金提高至393,174.10比索/月（含70,000比索补贴后为463,174.10比索），最高养老金达2,645,689.38比索/月。全民老年养老金（PUAM）为314,539.28比索加补贴。70,000比索补贴仍冻结在2024年3月水平，最低养老金领取者实际增幅约2.85%，略低于实际通胀率。5月支付日程按DNI尾号分批进行（11日至29日）。",
+      "date": "2026-05-04",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "ANSES / Bloomberg Línea / Primera Edición",
+      "url": "https://www.bloomberglinea.com/latinoamerica/argentina/anses-confirmo-el-nuevo-monto-para-jubilados-cuanto-cobran-desde-mayo-y-las-fechas-clave/"
+    },
+    {
+      "id": 35,
+      "country": "韩国",
+      "title": "NPS近12万人月领超200万韩元养老金，较2018年激增",
+      "content": "韩联社2026年5月3日报道，截至2026年1月底，韩国国民年金（NPS）每月领取超过200万韩元（约1,359美元）养老金的人数达116,166人，较2018年的仅10人呈现爆发式增长，2025年为93,350人。200万韩元被视为韩国稳定退休生活的基准线。韩国退休人员平均养老金为700,427韩元/月。2026年1月生效的NPS改革将缴费率从9%分8年逐步提高至13%，替代率从41.5%提高至43%，基金耗尽时间从2050年推迟至至少2064年。",
+      "date": "2026-05-03",
+      "category": "数据发布",
+      "importance": 3,
+      "source": "Yonhap News Agency",
+      "url": "https://m-en.yna.co.kr/view/AEN20260503002200320"
+    },
+    {
+      "id": 36,
+      "country": "意大利",
+      "title": "INPS 5月养老金自动重估值1.4%，Q1新增21.15万笔养老金",
+      "content": "意大利INPS自2026年5月起基于2025年ISTAT通胀指数对养老金进行1.4%的自动重估值调整，但调整幅度因金额而异：最低标准4倍以内（2,413.60欧元以下）获全额1.4%上调；2,413.61-3,017欧元获1.26%（90%）；3,017.01欧元以上仅获1.05%（75%）。2026年Q1新增211,524笔养老金，平均月金额1,285欧元（高于2025年的1,221欧元），其中老年养老金64,513笔、提前退休56,004笔。2026年最低养老金为611.84欧元/月（75岁以上619.79欧元）。",
+      "date": "2026-05-01",
+      "category": "政策调整",
+      "importance": 3,
+      "source": "INPS / Corriere della Sera / Il Messaggero",
+      "url": "https://www.corriere.it/economia/pensioni/26_maggio_05/pensioni-la-meta-degli-italiani-prende-troppo-come-rivedere-isee-e-sussidi-e-finirla-con-il-buonismo-2c6dc951-4ea5-4c30-bbe9-434bc7477xlk.shtml"
+    },
+    {
+      "id": 37,
+      "country": "墨西哥",
+      "title": "辛鲍姆宣布进一步限制高额\"金色养老金\"，推进公共养老金公平化",
+      "content": "墨西哥总统辛鲍姆（Claudia Sheinbaum）2026年4月26日宣布将进一步限制前高级官员过高\"金色养老金\"（pensiones doradas），披露部分前官员（包括前财长José Ángel Gurría）从Nafin等国家机构每月领取超12,000美元的养老金。此项行动基于4月10日公布的宪法第127条改革，将所有公共资金支付的养老金上限定为总统薪资50%（约70,000比索/月）。改革预计影响IMSS、ISSSTE、Pemex、CFE等机构超过93,000名养老金领取者，部分人可能面临最高60%的削减。最高法院也裁定IMSS可取消重复养老金支付。",
+      "date": "2026-04-26",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "Mexico News Daily / MexicoNow",
+      "url": "https://mexico-now.com/golden-pensions-are-being-cut/"
+    },
+    {
+      "id": 38,
+      "country": "澳大利亚",
+      "title": "超级年金2026-27财年缴费上限指数化调整：税前缴费上限提高至32,500澳元",
+      "content": "澳大利亚税务局（ATO）确认超级年金缴费上限自2026年7月1日起指数化调整：税前（优惠）缴费上限从30,000澳元提高至32,500澳元；税后（非优惠）缴费上限从120,000澳元提高至130,000澳元；3年提前规划限额从360,000澳元提高至390,000澳元。总超级余额（TSB）上限从200万提高至210万澳元，转移余额上限从200万提高至210万澳元。单人全额老年金为每两周1,100.30澳元。\"按周付超级\"（Payday Super）改革也将于2026年7月1日生效，雇主须在每个发薪后7个工作日内缴纳超级保证金。",
+      "date": "2026-04-29",
+      "category": "政策调整",
+      "importance": 3,
+      "source": "ATO / Morningstar Australia / Firstlinks",
+      "url": "https://www.morningstar.com.au/retirement/key-changes-202627-super-thresholds"
     }
   ]
 }
