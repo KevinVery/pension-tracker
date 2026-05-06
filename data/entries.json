@@ -6,7 +6,7 @@
     "last_updated": "2026-05-06",
     "report_period_start": "2026-04-01",
     "report_period_end": "2026-05-06",
-    "total_entries": 36,
+    "total_entries": 42,
     "data_version": "3.1-update",
     "countries_covered": 16,
     "version": "1.0"
@@ -407,6 +407,72 @@
       "importance": 3,
       "source": "ATO / Morningstar Australia / Firstlinks",
       "url": "https://www.morningstar.com.au/retirement/key-changes-202627-super-thresholds"
+    },
+    {
+      "id": 37,
+      "country": "中国",
+      "title": "城乡居民基础养老金月最低标准提高至163元，4月起补发差额",
+      "content": "根据2026年政府工作报告部署，城乡居民基础养老金月最低标准从143元提高至163元（增加20元），自2026年1月1日起执行。4月起各地陆续发放补发1-3月差额共计60元（20元×3个月），与当月163元基础养老金一同到账。该政策覆盖全国约1.8亿城乡居民养老金领取者（其中农村老人占比超七成），是城乡居民养老保险制度建立以来的第八次上调。北京、上海等地在国家标准基础上进一步上调，上海基础养老金达1,555元/月，北京达998元/月。",
+      "date": "2026-04-01",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "中国政府网 / 人民网 / 各省市政府公告",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7065790.htm"
+    },
+    {
+      "id": 38,
+      "country": "德国",
+      "title": "内阁批准2027预算框架：削减40亿欧元联邦养老金补贴",
+      "content": "德国联邦内阁于2026年4月29日批准2027年预算框架，其中财政部长克林贝尔（Lars Klingbeil, SPD）提出自2027年起削减对法定养老保险的联邦补贴（Bundeszuschuss）40亿欧元，同时削减卫生基金（Gesundheitsfonds）20亿欧元。德国养老保险（DRV）警告此举将\"不可避免地导致雇员和雇主缴费率上升\"。专家预计缴费率将从18.6%升至18.8%，年收入3,500欧元的雇员每年多缴约42欧元。批评者指出此举与2025年养老金法案中\"用税收收入维持缴费率稳定\"的承诺相矛盾，缺乏战略一致性。最终预算法案预计2026年7月初提交议会审议。",
+      "date": "2026-04-29",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "Ruhr24 / Merkur / tz.de / Futurezone（多家德国媒体）",
+      "url": "https://www.ruhr24.de/service/rente-kuerzen-merz-regierung-buerger-mehr-zahlen-bundeszuschuss-deutsche-rentenversicherung-kritik-94293445.html"
+    },
+    {
+      "id": 39,
+      "country": "加拿大",
+      "title": "春季经济更新：CPP基础缴费率从9.9%降至9.5%，2027年生效",
+      "content": "加拿大财政部长François-Philippe Champagne于2026年4月28日发布春季经济更新，宣布自2027年1月1日起将CPP基础缴费率从9.9%下调至9.5%（40个基点）。年收入7万加元的雇员每年可少缴约133加元，雇主对应减少相同金额，全国合计每年为缴款人节省约30亿加元。各省财政部长一致同意该调整。财政部引用2025年12月CPP精算报告，显示维持基金75年偿付能力所需最低缴费率比法定低69个基点，此次下调40个基点仍保留审慎缓冲空间。CPP增强部分（CPP2）缴费率不变。",
+      "date": "2026-04-28",
+      "category": "政策调整",
+      "importance": 4,
+      "source": "CBC News / Global News / RBC Wealth Management",
+      "url": "https://www.cbc.ca/news/politics/takeaways-from-spring-economic-update-carney-9.7180305"
+    },
+    {
+      "id": 40,
+      "country": "日本",
+      "title": "撤销\"年收入106万日元门槛\"：短时间劳动者厚生年金大幅扩面",
+      "content": "日本2025年成立的《养老金制度改革法》进入实施阶段，2026年4月起启动过渡措施，10月起正式撤销短时间劳动者加入厚生年薪的月收入8.8万日元（年收106万日元）门槛。届时每周工作20小时以上者无论收入高低均须加入厚生年金，约180万人新纳入覆盖。2026年4月起，月薪12.6万日元以下的新加入者在50人以下企业可享受最长3年保险费50%减免优惠，企业可代为缴纳员工负担部分。4月起被扶养人认定规则同步变更，临时加班等导致的收入波动不会立即导致扶养资格丧失。\"130万日元门槛\"的认定规则也于4月起放宽。企业规模要件将于2027年起阶段性缩小，2035年完全废除。",
+      "date": "2026-04-01",
+      "category": "政策改革",
+      "importance": 4,
+      "source": "厚生劳动省 / 日本年金机构 / LIMO",
+      "url": "https://www.mhlw.go.jp/stf/social_insurance_application.html"
+    },
+    {
+      "id": 41,
+      "country": "意大利",
+      "title": "OECD经济调查敦促意大利削减第一支柱养老金成本",
+      "content": "OECD于2026年4月23日发布意大利经济调查（Economic Survey of Italy），敦促意大利削减第一支柱养老金成本。意大利养老金支出占GDP约18%，远高于OECD平均12%。主要建议包括：在法律约束范围内探索中期削减第一支柱养老金成本的方案；考虑降低与缴款不匹配的高额养老金价值；维持退休年龄和应计率随预期寿命调整的现行规则；避免新的提前退休激励措施。OECD首席经济学家Stefano Scarpetta在罗马与意大利国库总干事Riccardo Barbieri共同发布报告。年龄相关成本预计在2030年代中期前持续上升，之后随制度转型逐步下降。",
+      "date": "2026-04-23",
+      "category": "政策改革",
+      "importance": 3,
+      "source": "OECD / European Pensions / Eunews",
+      "url": "https://www.oecd.org/en/about/news/press-releases/2026/04/eco-survey-italy.html"
+    },
+    {
+      "id": 42,
+      "country": "印度",
+      "title": "政府公告：全印公务员（NPS实施）规则2026年正式公布",
+      "content": "印度人事、公共申诉与养老金部（DoPT）于2026年4月22日在官方公报发布第G.S.R. 307(E)号通知，制定《全印公务员（国家养老金体系实施）规则2026》。适用于2004年1月1日及之后入职的全印公务员（IAS、IPS、IFoS等）。规定雇员缴款为基本工资+物价津贴的10%，政府缴款14%。建立严格缴款时限：入职后立即注册NPS，首笔缴款须在固定期限内完成；因行政原因延迟须按PPF利率计息补偿。入职时须在AIS(DCRB)规则1958和NPS之间做出死亡/残疾福利选择。退休年龄60岁，自愿退休需满20年服务（提前3个月通知）。强制使用\"Bhavishya\"集中系统进行养老金处理及数字化生存证明。",
+      "date": "2026-04-22",
+      "category": "法规更新",
+      "importance": 3,
+      "source": "印度官方公报 / The Tribune / StaffNews",
+      "url": "https://www.tribuneindia.com/news/india/govt-notifies-new-national-pension-system-rules"
     }
   ]
 }
