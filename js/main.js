@@ -153,6 +153,7 @@ const App = {
     // 渲染统计卡片
     renderStats() {
         const entries = this.data.entries;
+        const meta = this.data.metadata;
         const countries = new Set(entries.map(e => e.country));
         const highImp = entries.filter(e => e.importance >= 5).length;
         const reforms = entries.filter(e => e.category.includes('改革')).length;
@@ -160,6 +161,16 @@ const App = {
         const today = this._fmt(new Date());
         const thisWeek = this.getWeekRange(today);
         const thisWeekCount = entries.filter(e => this.getWeekRange(e.date).key === thisWeek.key).length;
+
+        // 更新报告周期
+        const periodEl = document.getElementById('overview-period');
+        if (periodEl && meta.report_period_start && meta.report_period_end) {
+            const fmtDate = (s) => {
+                const p = s.split('-');
+                return p[0] + '年' + parseInt(p[1]) + '月' + parseInt(p[2]) + '日';
+            };
+            periodEl.innerHTML = `报告周期：<time datetime="${meta.report_period_start}">${fmtDate(meta.report_period_start)}</time> — <time datetime="${meta.report_period_end}">${fmtDate(meta.report_period_end)}</time> <span class="period-divider">|</span> 按周发布（周日—周六）`;
+        }
 
         document.getElementById('stats-grid').innerHTML = `
             <div class="stat-card highlight">
